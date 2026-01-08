@@ -123,10 +123,16 @@ class showResult : AppCompatActivity() {
         var totalSatang = 0.0
         if (satang < 0.125) {
             totalSatang = 0.0
+        } else if (satang < 0.25) {
+            totalSatang = 0.25
         } else if (satang < 0.375) {
             totalSatang = 0.25
+        } else if (satang < 0.50) {
+            totalSatang = 0.50
         } else if (satang < 0.625) {
             totalSatang = 0.50
+        } else if (satang < 0.75) {
+            totalSatang = 0.75
         } else if (satang < 0.875) {
             totalSatang = 0.75
         } else {
